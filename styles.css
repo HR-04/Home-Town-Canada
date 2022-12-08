@@ -1,0 +1,108 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    background:#1D7BAE;
+    border: 3px solid #061826;
+
+    
+}
+img {
+    width: 100px;
+   }
+
+
+ .avator{
+    width:150px;
+    border-radius:20px ;
+    border: 3px solid #061826;
+}
+.card{
+    width:400px;
+    margin:0 auto;
+    column-gap: 1rem;
+    padding:30px;
+    display:flex;
+    justify-content:space-around;
+    text-align:centre;
+    background:#4895ef;
+    color:#f8f9fa; 
+    border: 3px solid #061826;
+    border-radius:6px;
+    margin: 50px auto;
+  
+}
+.hero{
+    background-image:url("https://s-i.huffpost.com/gen/3345684/original.jpg");
+    background-size:cover;
+    padding:10px 0 100px 0;
+    color:whitesmoke;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    margin-bottom:0px;
+    height:50vh;
+    
+}
+.hero:hover{
+    background-image: url("https://media.giphy.com/media/9xrneS7nkb6PagNls6/giphy.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:auto;
+}
+
+.hero h1{
+    background:#247BA0;
+    padding:5px 5px;
+    border-radius: 20px;
+    margin:5px 0 5px 0;
+    border: 3px solid #061826;
+
+}
+
+.hero h2{
+    background:#247BA0;
+    padding:5px 10px;
+    border-radius: 20px;
+    margin:0;
+    border: 3px solid #061826;
+}
+.Activity{
+   background:#00b4d8;
+   margin:none;
+   border: 3px solid #061826;
+}
+.Activity h3{
+    margin-top:0px;
+    padding-top: 2rem;
+}
+
+.img{
+    display:flex;
+    justify-content: space-around;
+    padding:0px;
+    border-radius:5px;
+}
+.text{
+    display:flex;
+    justify-content: center;
+    justify-content:space-around;
+    
+}
+
+.img img{
+    height:70px;
+    border-radius: 50%;
+    border: 3px solid #061826;
+}
